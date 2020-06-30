@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.card-div {
+  width: 50%;
+  margin: 60px auto;
+  padding: 50px;
+  text-align: center;
+  height: 25%;
+  border: 3px solid #141d26;
+  background: #243447;
+  color: white;
+}
+
+.card-div p {
+  font-size: 1.5rem;
+  padding: 20px 50px;
+}
+
+.card-div h1 {
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+.img-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.img-div img {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
